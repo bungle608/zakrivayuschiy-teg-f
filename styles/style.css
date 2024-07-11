@@ -14,11 +14,6 @@
 
 */
 
-.page {
-  min-inline-size: 320px;
-  min-block-size: 100dvb;
-}
-
 .filter-grayscale {
   filter: grayscale(70%);
 }
@@ -347,7 +342,6 @@
   block-size: 36px;
   inline-size: 39px;
 }
-
 
 @media (width < 376px) {
   .modal {
