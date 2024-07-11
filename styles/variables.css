@@ -21,8 +21,6 @@
   --like-main-body-color: none;
   --like-contour-color: var(--text-color, #000000);
   --like-sparks-color: #ff0000;
-
   --headings-font-weight: 700;
-
   --button-text-color: var(--page-background-color, #fff);
 }

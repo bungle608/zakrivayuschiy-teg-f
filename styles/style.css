@@ -72,7 +72,6 @@
 
 .modal[open] {
   display: grid;
-  /* Safari fix */
   grid-template-rows: repeat(2, min-content);
   gap: 30px;
 }
@@ -176,7 +175,6 @@
   position: absolute;
   animation: arrow 0.5s ease-in-out infinite alternate;
   inset-inline-start: -20px;
-  /* Safari fix */
   inset-block-start: 0px;
 }
 
@@ -212,27 +210,21 @@
 
 .card__img-wrapper {
   position: relative;
-  /* overflow - для коррекции эффектов filter blur */
   overflow: hidden;
 }
 
 .card__img-label {
   position: absolute;
   z-index: 1;
-
   opacity: 0.5;
-
   color: var(--text-color, #000000);
   font-family: var(--page-accent-font-family, "PressStart2P", fantasy);
-
   font-size: 14px;
   line-height: normal;
-
   text-transform: uppercase;
   text-shadow: 0 0 1px var(--page-background-color, #ffffff);
   inset-inline-end: 13px;
   inset-block-start: 24px;
-
   mix-blend-mode: hard-light;
 }
 
